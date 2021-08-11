@@ -4,12 +4,40 @@ This file is used to list changes made in each version of the squid cookbook.
 
 ## Unreleased
 
+## 4.4.2 - *2021-06-30*
+
+- Fix squid stopping and starting on every run if caching is disabled
+
+## 4.4.1 - *2021-06-01*
+
+## 4.4.0 - *2021-01-10*
+
+- Add Debian 10 / Ubuntu 20.04 support
+- Add testing on Centos 8
+- Remove testing on Debian 8 and Centos 6
+
+## 4.3.1 (2020-09-16)
+
+- resolved cookstyle error: libraries/helpers.rb:68:1 refactor: `ChefCorrectness/IncorrectLibraryInjection`
+- Cookstyle Bot Auto Corrections with Cookstyle 6.17.6
+
+## 4.3.0 (2020-05-05)
+
+- resolved cookstyle error: libraries/helpers.rb:67:16 warning: `Lint/SendWithMixinArgument`
+- resolved cookstyle error: libraries/helpers.rb:68:14 warning: `Lint/SendWithMixinArgument`
+- Migrate to github actions
+
+## 4.2.0 (2019-11-07)
+
 - Changed ownership to sous-chefs
 - Change chef to minimum of 13
+- Changed `['squid']['squid_version_detected']` in `default` recipe to be a `default` level attribute
 - Removed Fedora Support
 - Removed support for smartos
 - Removed Travis testing, added circleci testing
 - Add attribute to set CONNECT and safe_ports restriction optionnal
+- Remove unused network detection which break some setups
+- Depreciated centos 6 and fedora from testing
 
 ## 4.1.0 (2018-05-23)
 
