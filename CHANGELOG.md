@@ -4,6 +4,10 @@ This file is used to list changes made in each version of the squid cookbook.
 
 ## Unreleased
 
+## 4.4.4 - *2022-02-08*
+
+- Remove delivery folder
+
 ## 4.4.3 - *2021-08-30*
 
 - Standardise files with files in sous-chefs/repo-management
