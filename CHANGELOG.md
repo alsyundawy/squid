@@ -4,6 +4,33 @@ This file is used to list changes made in each version of the squid cookbook.
 
 ## Unreleased
 
+## 5.1.7 - *2023-12-27*
+
+## 5.1.6 - *2023-10-31*
+
+## 5.1.5 - *2023-09-28*
+
+## 5.1.4 - *2023-09-28*
+
+## 5.1.3 - *2023-07-10*
+
+## 5.1.2 - *2023-06-08*
+
+## 5.1.1 - *2023-06-08*
+
+Standardise files with files in sous-chefs/repo-management
+
+## 5.1.0 - *2023-05-10*
+
+- Remove support for EOL Debian 9 distribution.
+- Add testing for modern Linux distributions.
+
+## 5.0.0 - *2023-05-09*
+
+- Remove support for EOL Ubuntu 14.04 and Debian 8 distributions
+
+## 4.4.5 - *2023-02-14*
+
 ## 4.4.4 - *2022-02-08*
 
 - Remove delivery folder
